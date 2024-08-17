@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: #bdc3c7;
+    // font-family: 'Kanit', sans-serif;
+    // font-family: 'Nunito', sans-serif;
+}
+$borderCurv: 10rem;
+.logo{
+    font-size: 3rem;
+}
+.headImg_div{
+    position: relative;
+    .headImg{
+        border-radius: 10rem;
+        width: 50%;
+    }
+    .headImg2{
+        border-radius: 10rem;
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+    }
+}
+.container{
+    .row{
+        .col-3{
+            .travelImg{
+                position: relative;
+                border-radius: $borderCurv;    
+            }
+            .user{
+                position: absolute;
+                z-index: 5;
+                width: 5rem;
+                height: 5rem;
+                border-radius:50% ;
+                top: 50%;
+                border: 5px solid white;
+            }
+        }
+        .col-6{
+
+        }
+    }
+}
+.container-fluid{
+    .row{
+        .col-6{
+            .cImg{
+                position: absolute;
+                z-index: 2;
+                top: 10rem;
+                border-radius: $borderCurv;
+            }
+            .cImg2{
+                position: absolute;
+                z-index: 1;
+                left: 10rem;
+                border-radius: $borderCurv;
+            }
+            .cImg3{
+                position: absolute;
+                right: 1%;
+                top: 10rem;
+                border-radius: $borderCurv;
+            }
+        }
+    }
+}
+.footer,.bgg, .lounge,.facility{
+
+    background-color:#ecf0f1 ;
+    color: #bdc3c7;
+}
+.nav-link{
+    color: #bdc3c7;
+}

@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+// .cstm_clr{
+//     text-decoration: underline #E5CFF7 4px;
+// }
+.before_content{
+    position: relative;
+}
+.content_div{
+    position:absolute;
+    top: 20%;
+    width: 100%;
+    padding: 0% 10%;
+}
+// .imggg{
+//     height: 100%;;
+// }
+.nav-link{
+    color: gray;
+}
+.cstm-txt{
+    background-color: #5B0888;
+    // color: white;
+}
+.btn{
+    // background-color: #E5CFF7
+    background-color: #5B0888;
+    color: white;
+}
+.active{
+    color: #E5CFF7;
+}
+.navbar-nav li{
+    padding: 0px 12px;
+}
+.lab{
+    font-size: 180%;
+    color: #5B0888;
+    padding-right: 2%;
+}
+.logo{
+    color: #5B0888;
+}

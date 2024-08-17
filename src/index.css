@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(14, 12, 12);
+    color: white;
+}
+.navbr{
+    background-color: black;
+}
+.head_img{
+    border-radius:  100%;
+    /* border: 5px solid #0ef; */
+    box-shadow: 20px 20px 20px #0ef;
+    height: 50%;
+}
+header{
+    color: white;
+    /* background-color: black; */
+}
+nav{
+    color: white;
+    background-color: black;
+}
+.navs-clr{
+    color: white;
+}
+.ee{
+    color: white !important;
+}
+.active{
+    color: #0ef;
+}
+.btn_clr{
+    background-color: #0ef;
+}
+.cstm-clr{
+    color: #0ef;
+}
+.shdow{
+    box-shadow: -5px -5px 5px 5px #0ef;
+}
+.about_img{
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px  #0ef;
+    height: 40%;
+}
+  .circle-text {
+    font-size: 16px;
+    color: #0ef;
+    position: relative;
+  } 
+  .circle1{
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
+  .circle1-perct{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+  }
+  .line1{
+    width: 70%;
+
+  }
+  .contact-icon{
+    font-size: 40px;
+    color: #0ef;
+  }
+  .cnt-icon{
+    font-size: 20px;
+    color: #0ef;
+  }
+  .project_img{
+    width: 100%;
+    height: 50%;
+  }
